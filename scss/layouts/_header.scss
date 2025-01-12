@@ -1,0 +1,22 @@
+header{
+    .top-header{
+        background-color: $light-green;
+        img{
+            border: 4px solid $secondary-color;
+            border-top: none;
+            z-index: 90;
+            
+        }
+    }
+    nav{
+        background-color: $primary-color;
+        ul{
+            li{
+                padding: 30px;
+                &:hover{
+                    background-color: $secondary-color;
+                }
+            }
+        }
+    }
+}

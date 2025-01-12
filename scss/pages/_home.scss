@@ -1,0 +1,102 @@
+.banner-section {
+    .carousel-caption {
+        transform: translateY(50%);
+        right: 10%;
+    }
+
+    img {
+        height: 75vh;
+    }
+
+    .trip-search {
+        left: 50%;
+        bottom: 20px;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        span {
+            background-color: $primary-color;
+            color: white;
+            text-transform: uppercase;
+            padding: 10px 30px;
+            display: flex;
+            align-items: center;
+        }
+        form{
+            background-color: #E6E6E6;
+            padding: 10px 20px;
+            select{
+                padding: 10px;
+                width: 200px;
+                border: 1px solid $primary-color;
+            }
+        }
+    }
+}
+.about-us{
+    .title{
+        background-color: $primary-color;
+        width: fit-content;
+    }
+    .featured-packages{
+        color: #383838;
+    }
+}
+.specialities-card{
+    overflow: hidden;
+    h3{
+        background-color: $secondary-color;
+        left: 0;
+        bottom: 20px;
+    }
+    img{
+        transition: 0.4s;
+    }
+    &:hover{
+        img{
+            transform: scale(1.4);
+        }
+    }
+    
+}
+.best-selling-section{
+    .nav{
+        .nav-item{
+            .nav-link{
+                background-color: $primary-color;
+                border-radius: 0;
+                color: white;
+                padding: 5px 20px;
+                border: none;
+                padding: 5px 60px;
+                &.active{
+                    background-color: $secondary-color;
+                }
+            }
+        }
+    }
+}
+.best-selling-card{
+    height: 250px ;
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    .title{
+        background-color: $primary-color;
+    }
+    .duration{
+        background-color: $secondary-color;
+    }
+    .price{
+        background-color: $secondary-color;
+        display: none;
+        &:hover{
+            img{
+                opacity: 0.6;
+            }
+            .price{
+                display: block;
+            }
+        }
+    }
+}
